@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid com Tailwind</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="grid bg-red-300 grid-cols-4">
+      <div class="bg-red-600">1</div>
+      <div class="bg-red-600">2</div>
+      <div class="bg-red-600">3</div>
+      <div class="bg-red-600">4</div>
+    </div>
+
+    <div class="grid grid-cols-2">
+      <div class="bg-green-600">1</div>
+      <div class="bg-green-600">2</div>
+    </div>
+
+    <!--Exercício 7-->
+    <h2>Exercício 7</h2>
+
+    <div class="grid grid-cols-3 m-2">
+      <div class="bg-purple-400">1</div>
+      <div class="bg-purple-800">2</div>
+      <div class="bg-purple-400">3</div>
+      <div class="bg-purple-800">4</div>
+      <div class="bg-purple-400">5</div>
+      <div class="bg-purple-800">6</div>
+      <div class="bg-purple-400">7</div>
+      <div class="bg-purple-800">8</div>
+      <div class="bg-purple-400">9</div>
+    </div>
+
+    <div class="grid grid-cols-6 m-2">
+      <div class="col-span-1 bg-yellow-500">
+        <ul>
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Contato</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="col-span-5 bg-blue-400">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+          pariatur facilis molestiae minima expedita tempora? Perspiciatis in,
+          labore, perferendis doloribus dolorum consequatur nostrum maxime iusto
+          a aspernatur odit consequuntur dicta!
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-4 m-2">
+      <div class="col-span-4 bg-red-950">
+        <p>Barra de navegação</p>
+      </div>
+      <div class="col-span-1 bg-red-700">
+        <p>Barra lateral Esquerda</p>
+      </div>
+      <div class="col-span-2 bg-red-300">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim incidunt
+          at velit odit sapiente necessitatibus reprehenderit labore recusandae
+          suscipit dolor fuga molestiae odio pariatur quaerat ducimus, quisquam
+          et neque. Quos? Perspiciatis nihil impedit alias. Delectus quas aut
+          ipsam? Doloremque nam dolor non quisquam eligendi, iusto expedita
+          nesciunt architecto numquam vitae temporibus, iure corrupti provident
+          molestiae. Beatae atque esse quasi dolor. Ut, error eligendi! Expedita
+          in officiis corrupti odio ex, officia vitae ad consequatur nam
+          doloremque qui veniam totam eius fugit laboriosam ullam, nesciunt
+          similique magni facilis! Vero esse facilis cum? Earum tempore
+          explicabo natus pariatur velit excepturi at, molestiae aut nostrum
+          iure laborum ut, voluptate sequi impedit necessitatibus fugit dolorum
+          nihil soluta! Praesentium maiores rerum voluptatem iste iure amet
+          iusto! Similique assumenda natus laudantium exercitationem
+          reprehenderit quaerat nam tenetur minima quam obcaecati asperiores
+          odio dolore necessitatibus nobis nihil inventore, adipisci quas beatae
+          vel excepturi temporibus dicta eveniet voluptatum! Doloremque, ipsum.
+        </p>
+      </div>
+      <div class="col-span-1 bg-red-700">
+        <p>Barra lateral Direita</p>
+      </div>
+      <div class="col-span-4 bg-red-950">
+        <p>Footer</p>
+      </div>
+    </div>
+
+    <!--Exercício 8-->
+    <h2>Exercício 8</h2>
+
+    <div class="grid grid-cols-4 m-2">
+      <div class="col-span-4 bg-yellow-900 text-white p-2">
+        <p>Barra de Navegação Superior</p>
+      </div>
+      <div class="col-span-1 bg-yellow-600 p-2">
+        <ul>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Categorias</a></li>
+          <li><a href="#">Novidades</a></li>
+        </ul>
+      </div>
+      <div class="col-span-3 bg-yellow-400 p-2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          voluptatibus nisi eum laboriosam ipsam placeat suscipit beatae eos
+          consequatur qui aliquid hic officiis culpa ut earum doloribus facere,
+          voluptas esse. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Eaque, impedit eum nemo at voluptates, aperiam expedita
+          praesentium vero ipsum, aliquid voluptas assumenda ut fugit rem
+          deserunt asperiores hic. Ea, vitae. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Labore, nam! Ut ipsum dolore similique
+          et aliquam quis, eum laborum dignissimos, voluptatum modi incidunt
+          vitae eveniet ab corrupti maiores molestias expedita! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Facilis, odio molestiae
+          tempore reprehenderit veniam reiciendis repudiandae eos ratione
+          repellendus dolores. Culpa expedita quos dolorum, iste temporibus
+          aliquid inventore quo itaque!.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-rows-3 grid-flow-col m-4">
+      <div class="bg-green-400">1</div>
+      <div class="bg-green-600">2</div>
+      <div class="bg-green-400">3</div>
+      <div class="bg-green-600">4</div>
+      <div class="bg-green-400">5</div>
+      <div class="bg-green-600">6</div>
+      <div class="bg-green-400">7</div>
+      <div class="bg-green-600">8</div>
+      <div class="bg-green-400">9</div>
+    </div>
+
+    <!--GAP-->
+    <div class="grid grid-cols-3 m-4 gap-2">
+      <div class="bg-purple-400">1</div>
+      <div class="bg-purple-600">2</div>
+      <div class="bg-purple-400">3</div>
+      <div class="bg-purple-600">4</div>
+      <div class="bg-purple-400">5</div>
+      <div class="bg-purple-600">6</div>
+      <div class="bg-purple-400">7</div>
+      <div class="bg-purple-600">8</div>
+      <div class="bg-purple-400">9</div>
+    </div>
+
+    <!--Exercício 9-->
+    <h2>Exercício 9</h2>
+
+    <div class="grid grid-cols-2 m-4 gap-6">
+        <div class="bg-blue-300">1</div>
+        <div class="bg-blue-400">2</div>
+        <div class="bg-blue-500">3</div>
+        <div class="bg-blue-600">4</div>
+    </div>
+
+  </body>
+</html>
