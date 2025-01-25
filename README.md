@@ -1,6 +1,6 @@
 # Repositório de Estudos: Tailwind CSS 🎨
 
-# OBS: Tailwind atualizou para versão 4 e, assim, as seções 1 até a 6, sáo da versão antiga!
+- OBS: Tailwind atualizou para versão 4 e, assim, as seções 1 até a 6, são da versão antiga!
 
 Bem-vindo ao meu repositório de estudos sobre Tailwind CSS! 🚀 Aqui você encontrará projetos, exemplos e experimentos desenvolvidos para explorar e dominar este poderoso framework de utilitários para estilização.
 
