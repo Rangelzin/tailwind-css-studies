@@ -8,7 +8,7 @@ Bem-vindo ao meu repositório de estudos sobre Tailwind CSS! 🚀 Aqui você enc
 
 1. Clone o repositório para sua máquina local usando o comando: 
     ```bash
-    git clone https://rangelzin.github.io/tailwind-css-studies/.git
+    git clone https://github.com/Rangelzin/tailwind-css-studies/.git
     ```
 2. Acesse o repositório:
    ```bash
