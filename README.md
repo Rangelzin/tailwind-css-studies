@@ -4,6 +4,17 @@
 
 Bem-vindo ao meu repositório de estudos sobre Tailwind CSS! 🚀 Aqui você encontrará projetos, exemplos e experimentos desenvolvidos para explorar e dominar este poderoso framework de utilitários para estilização.
 
+# Como acessar? 🔗
+
+1. Clone o repositório para sua máquina local usando o comando: 
+    ```bash
+    git clone https://rangelzin.github.io/tailwind-css-studies/.git
+    ```
+2. Acesse o repositório:
+   ```bash
+    cd tailwind-css-studies
+    ```
+
 # O que você encontrará aqui:
 
 Exemplos práticos de componentes estilizados com Tailwind CSS.
