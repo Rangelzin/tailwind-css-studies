@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+
+    /*  CUSTOMIZAÇÃO    */
+    --color-hoverspt: #3DD973;
+    --color-purple-main: #3449BF;
+    --color-green-main: #2EF24B;
+    --valor9xl: 9rem;
+    --valor14: 3.5rem;
+    --valor125px: 125px;
+    --valor132px: 132px;
+    --porcent175: 175%; 
+    --porcent195: 195%; 
+    --banner: 46% 4%;
+    --banner-mobile: top 25% center;
+}
