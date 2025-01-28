@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interatividade</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="m-4 ">
+        <select class="appearance-none">
+            <option value="">Teste</option>
+        </select>
+        <select class="appearance-auto">
+            <option value="">Teste</option>
+        </select>
+    </div>
+
+    <!--Cursor-->
+
+    <div class="h-20 bg-pink-400 cursor-pointer"></div>
+    <div class="h-20 bg-pink-500 cursor-wait"></div>
+    <div class="h-20 bg-pink-600 cursor-not-allowed"></div>
+    <div class="h-20 bg-pink-700 cursor-text"></div>
+    <p>Teste</p>
+    
+    <!-- delete Outline-->
+
+    <div class="p-6 bg-red-300">
+        <input type="text" placeholder="Clica em mim!" class="outline-none bg-white">
+        <input type="text" placeholder="Clica em mim! 2" class="bg-white">
+    </div>
+
+    <!--Pointer Events-->
+    <div class="m-4 bg-gray-300 p-4">
+        <select class="pointer-events-none">
+            <option value="">Teste Pointers</option>
+        </select>
+        <select class="">
+            <option value="">Teste Pointers</option>
+        </select>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" class="pointer-events-none bg-white"></textarea>
+            <textarea name="" id="" cols="30" rows="10" class="bg-white"></textarea>
+        </div>
+    </div>
+
+    <!-- Resize-->
+
+    <div class="m-4 bg-blue-300 p-4">
+        <textarea name="" id="" cols="30" rows="10" class="resize-none bg-white"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class=" resize-x bg-white"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class=" resize-y bg-white"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class=" resize bg-white"></textarea>
+    </div>
+
+    <!-- Seleção -->
+
+    <div class="m-4 bg-blue-400 p-4">
+        <p class="select-none">Este parágrafo não pode ser selecionado!</p>
+        <p class="select-auto">Este parágrafo pode ser selecionado!</p>
+    </div>
+    
+    <div class="bg-black w-full h-1 my-20"></div>
+
+</body>
+</html>
